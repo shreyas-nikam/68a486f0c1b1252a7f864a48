@@ -59,7 +59,9 @@
 
 2.  **Prerequisites: Tokens, Context Windows, and Costs**
 
-    *   Markdown Cell:  Introduce fundamental concepts: tokens, context windows, cost, and latency. Explain the relationship between context window size and potential performance. Introduce the concept of tokenization: $ \text{Text} \rightarrow \text{Tokenizer} \rightarrow \text{Tokens} $. Describe the tradeoffs between model size, cost, and latency, i.e. bigger models have more parameters ($ \text{Parameters} \uparrow $), are more expensive to run ($ \text{Cost} \uparrow $), and have higher latency ($ \text{Latency} \uparrow $).
+    *   Markdown Cell:  Introduce fundamental concepts: tokens, context windows, cost, and latency. Explain the relationship between context window size and potential performance. Introduce the concept of tokenization: 
+$$ \text{Text} \rightarrow \text{Tokenizer} \rightarrow \text{Tokens} $$. 
+Describe the tradeoffs between model size, cost, and latency, i.e. bigger models have more parameters ($ \text{Parameters} \uparrow $), are more expensive to run ($ \text{Cost} \uparrow $), and have higher latency ($ \text{Latency} \uparrow $).
     *   Code Cell: Example code demonstrating tokenization using `transformers`.
     *   Markdown Cell: Explain the output of the tokenization code.
 
